@@ -1,0 +1,158 @@
+.modal-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 2ch;
+  /* visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s opacity 0, 5s; */
+}
+
+.bg-active {
+  visibility: visible;
+  opacity: 1;
+}
+
+.modal {
+  position: relative;
+  background-color: white;
+  width: 20%;
+  height: 40%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 30px;
+  text-align: center;
+  padding-bottom: 2ch;
+  background-image: linear-gradient(
+    to bottom,
+    #6fb4b4,
+    #6fb4b4,
+    #6fb4b4,
+    #6fb4b4,
+    #6fb4b4,
+    #6eb3b6,
+    #6db2b9,
+    #6db1bb,
+    #6eaebf,
+    #72abc1,
+    #77a7c2,
+    #7ea3c2
+  );
+}
+
+.modalSuccess {
+  position: relative;
+  background-color: white;
+  width: 20%;
+  height: 20%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 30px;
+  text-align: center;
+  /* padding-bottom: 2ch; */
+  padding: 35px;
+}
+
+.modalSpanCopy {
+  font-size: 15px;
+}
+
+.modalSell {
+  position: relative;
+  background-color: white;
+  width: 30%;
+  height: 60%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 30px;
+  text-align: center;
+  padding-bottom: 2ch;
+}
+
+.modalInvalidUsername{
+  position: relative;
+  background-color: white;
+  width: 30%;
+  height: 15%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 30px;
+  text-align: center;
+  padding-bottom: 2ch;
+}
+
+.modalBuyButton{
+  position: relative;
+  background-color: white;
+  width: 30%;
+  height: 15%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 30px;
+  text-align: center;
+  padding-bottom: 2ch;
+}
+
+.modalFailedListing{
+  position: relative;
+  background-color: white;
+  width: 35%;
+  height: 20%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 30px;
+  text-align: center;
+  padding-bottom: 2ch;
+}
+
+.modalFail{
+  position: relative;
+  background-color: white;
+  width: 35%;
+  height: 20%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 30px;
+  text-align: center;
+  padding-bottom: 2ch;
+}
+
+.modalClose {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+.sellBttnModal {
+  margin-top: 20px;
+  font-family: "Abel", sans-serif;
+  border-radius: 5px;
+  color: red;
+}
+
+.modalJoinButton {
+  font-family: "Abel", sans-serif;
+  color: red;
+  border-radius: 5px;
+}
