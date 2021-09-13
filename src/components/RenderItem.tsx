@@ -23,7 +23,7 @@ export default function RenderItem({ item, transactionType }: Prop) {
   const setModal = useStore((store)=> store.setModal) 
 
   function displayDetails(){
-    setSelectedListing(item)
+    setSelectedListing(item.Listing)
     setModal("favouriteDetails")
   }
   
