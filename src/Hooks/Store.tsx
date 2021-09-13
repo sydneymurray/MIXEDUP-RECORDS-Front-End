@@ -23,8 +23,8 @@ type Store = {
   retrieveFavourites: () => void
   deleteFavourite: (id: number) => void
   setFavourites: (updatedFavourite: Favourite[]) => void
-  selectedListing: listing | null | item
-  setSelectedListing: (listing: listing | item) => void
+  selectedListing: listing | null 
+  setSelectedListing: (listing: listing) => void
   addFavourite: (id: number) => void
 };
 
